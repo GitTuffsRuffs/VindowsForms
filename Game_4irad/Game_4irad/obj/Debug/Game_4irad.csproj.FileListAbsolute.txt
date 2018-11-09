@@ -1,0 +1,10 @@
+C:\Users\Madelen\Documents\Visual Studio 2017\Projects\Game_4irad\Game_4irad\bin\Debug\Game_4irad.exe.config
+C:\Users\Madelen\Documents\Visual Studio 2017\Projects\Game_4irad\Game_4irad\bin\Debug\Game_4irad.exe
+C:\Users\Madelen\Documents\Visual Studio 2017\Projects\Game_4irad\Game_4irad\bin\Debug\Game_4irad.pdb
+C:\Users\Madelen\Documents\Visual Studio 2017\Projects\Game_4irad\Game_4irad\obj\Debug\Game_4irad.csprojAssemblyReference.cache
+C:\Users\Madelen\Documents\Visual Studio 2017\Projects\Game_4irad\Game_4irad\obj\Debug\Game_4irad.Form1.resources
+C:\Users\Madelen\Documents\Visual Studio 2017\Projects\Game_4irad\Game_4irad\obj\Debug\Game_4irad.Properties.Resources.resources
+C:\Users\Madelen\Documents\Visual Studio 2017\Projects\Game_4irad\Game_4irad\obj\Debug\Game_4irad.csproj.GenerateResource.cache
+C:\Users\Madelen\Documents\Visual Studio 2017\Projects\Game_4irad\Game_4irad\obj\Debug\Game_4irad.csproj.CoreCompileInputs.cache
+C:\Users\Madelen\Documents\Visual Studio 2017\Projects\Game_4irad\Game_4irad\obj\Debug\Game_4irad.exe
+C:\Users\Madelen\Documents\Visual Studio 2017\Projects\Game_4irad\Game_4irad\obj\Debug\Game_4irad.pdb
