@@ -4,7 +4,7 @@ namespace FirApi
 	public class Pawn
 	{
 		const string Player1_Color = "Red";
-		const string Player2_Color = "Blue";
+		const string Player2_Color = "Blue"; //YELLOW
 
 		public int Game_ID;
 		public int X;

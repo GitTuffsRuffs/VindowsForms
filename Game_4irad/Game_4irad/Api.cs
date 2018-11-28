@@ -13,7 +13,7 @@ namespace FirApi
      * [X] /player/[player_id]
      * [X] /player/[player_id]/games
      * [X] /player/auth
-     * [/] /player/add
+     * [X] /player/add
      * [/] /whoami
      * [/] /whoami/game
      * [/] /game/add
@@ -130,7 +130,7 @@ namespace FirApi
 
         public async Task<PlayerToken> join(string user_name)
         {
-            PlayerToken token = Newtonsoft.Json.JsonConvert.DeserializeObject<PlayerToken>(await this.authRaw(user_name));
+            PlayerToken token = Newtonsoft.Json.JsonConvert.DeserializeObject<PlayerToken>(await this.joinRaw(user_name));
             if (token.Player_ID == 0) throw new NoResultException();
             return token;
         }
@@ -226,6 +226,25 @@ namespace FirApi
             List<List<int>> grid = Newtonsoft.Json.JsonConvert.DeserializeObject<List<List<int>>>(await this.gridRaw(game_id));
             if (grid.Count == 0) throw new NoResultException();
             return grid;
+        }
+        #endregion
+
+        #region /game/add/random
+        public async Task<string> randomGameRaw(string token)
+        {
+            String url = api_url + "game/add/random";
+            var ajax = new System.Net.Http.HttpClient();
+            var post_data_list = new List<KeyValuePair<string, string>>();
+            post_data_list.Add(new KeyValuePair<string, string>("token", token));
+            var post_data = new System.Net.Http.FormUrlEncodedContent(post_data_list);
+            return await ajax.PostAsync(url, post_data).Result.Content.ReadAsStringAsync();
+        }
+
+        public async Task<Game> randomGame(string token)
+        {
+            Game game = Newtonsoft.Json.JsonConvert.DeserializeObject<Game>(await this.randomGameRaw(token));
+            if (game.Game_ID == 0) throw new NoResultException();
+            return game;
         }
         #endregion
     }

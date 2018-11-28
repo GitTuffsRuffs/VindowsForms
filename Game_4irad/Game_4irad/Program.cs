@@ -29,7 +29,11 @@ namespace Game_4irad
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LogIn());
+            //Application.Run(new LogIn());
+
+            Form login = new LogIn();
+            login.Show();
+            Application.Run();
         }
     }
 }

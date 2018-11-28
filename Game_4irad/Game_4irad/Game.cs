@@ -10,5 +10,11 @@ namespace FirApi
         public string Start_Time;
         public string Player1;
         public string Player2;
+
+        public const string STATUS_TIE = "tie";
+        public const string STATUS_WAITFORP1 = "waiting for player 1";
+        public const string STATUS_WAITFORP2 = "waiting for player 2";
+        public const string STATUS_WONBYP1 = "won by player 1";
+        public const string STATUS_WONBYP2 = "won by player 2";
     }
 }
