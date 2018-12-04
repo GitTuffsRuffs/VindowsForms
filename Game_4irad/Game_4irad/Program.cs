@@ -16,6 +16,7 @@ namespace Game_4irad
         [STAThread]
         static void Main()
         {
+            //Get Error messadge in English
             if (Debugger.IsAttached)
                 CultureInfo.DefaultThreadCurrentUICulture = CultureInfo.GetCultureInfo("en-US");
 
@@ -27,12 +28,14 @@ namespace Game_4irad
             MessageBox.Show(task.Result);
             */
 
+            //Aouto generated rows
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new LogIn());
-
+            
+            //Skapa Forum LogIn & visa det.
             Form login = new LogIn();
             login.Show();
+            //Aouto generated row
             Application.Run();
         }
     }

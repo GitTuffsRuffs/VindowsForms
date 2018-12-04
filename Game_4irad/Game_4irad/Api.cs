@@ -16,8 +16,8 @@ namespace FirApi
      * [X] /player/add
      * [/] /whoami
      * [/] /whoami/game
-     * [/] /game/add
-     * [/] /play/[game_id]/[x]/[y]
+     * [X] /game/add
+     * [X] /play/[game_id]/[x]/[y]
      */
     public class Api
     {
@@ -25,7 +25,7 @@ namespace FirApi
         string api_url;
         public Api()
         {
-            api_url = "http://fir.tuffsruffs.se/api/";
+            api_url = "https://fir.tuffsruffs.se/api/";
         }
         public Api(string url)
         {

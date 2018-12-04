@@ -8,6 +8,7 @@ namespace FirApi
         public int Player2_ID;
         public string Status;
         public string Start_Time;
+        public string Changed_Time;
         public string Player1;
         public string Player2;
 

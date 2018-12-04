@@ -1,12 +1,5 @@
 ﻿using FirApi;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Game_4irad
@@ -15,12 +8,14 @@ namespace Game_4irad
     {
         bool main_open = false;
 
+        //Konstruktor
         public LogIn()
         {
+            //Aoutogenerated row
             InitializeComponent();
         }
 
-        //Log in button presst.
+        //Login button presst.
         private async void buttonLogIn_ClickAsync(object sender, EventArgs e)
         {
             Api game_api = new Api();
@@ -46,10 +41,10 @@ namespace Game_4irad
             Form main = new MainForm(logInCall);
             main_open = true;
             main.Show();
-            //Application.Run(main);
             this.Close();
         }
 
+        //Pressing Make Account button
         private async void butt_MakeAccount_ClickAsync(object sender, EventArgs e)
         {
             Api game_api = new Api();
@@ -76,7 +71,6 @@ namespace Game_4irad
             Form main = new MainForm(logInCall);
             main_open = true;
             main.Show();
-            //Application.Run(main);
             this.Close();
         }
 
@@ -84,11 +78,8 @@ namespace Game_4irad
         private void LogIn_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (main_open == false) {
-            Environment.Exit(0);
+                Environment.Exit(0);
             }
         }
-
-
-
     }
 }
