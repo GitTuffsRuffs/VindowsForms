@@ -25,7 +25,7 @@ namespace Game_4irad
         List<Game> player_games_acctiv;
         List<Game> player_games_done;
 
-        //Listan med alla brikor i.
+        //Listan med alla brikor i. 2D lista med bild lådor.
         List<List<PictureBox>> pawnGrid = new List<List<PictureBox>>();
 
         //Konstruktor
@@ -70,7 +70,7 @@ namespace Game_4irad
                 //TOM Lista: med platser för pictursBox, för varje rad.
                 var row = new List<PictureBox>();
 
-                //MAke gridd, Colums
+                //Make gridd, Colums
                 for (int x = 0; x < 7; x++)
                 {
                     //Skapa bricka.

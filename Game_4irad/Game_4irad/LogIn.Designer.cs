@@ -42,7 +42,7 @@
             // 
             this.text_Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.text_Login.Location = new System.Drawing.Point(15, 262);
-            this.text_Login.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.text_Login.Margin = new System.Windows.Forms.Padding(4);
             this.text_Login.MaxLength = 255;
             this.text_Login.Name = "text_Login";
             this.text_Login.Size = new System.Drawing.Size(341, 34);
@@ -51,7 +51,7 @@
             // butt_LogIn
             // 
             this.butt_LogIn.Location = new System.Drawing.Point(16, 306);
-            this.butt_LogIn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butt_LogIn.Margin = new System.Windows.Forms.Padding(4);
             this.butt_LogIn.Name = "butt_LogIn";
             this.butt_LogIn.Size = new System.Drawing.Size(341, 55);
             this.butt_LogIn.TabIndex = 1;
@@ -62,7 +62,7 @@
             // butt_MakeAccount
             // 
             this.butt_MakeAccount.Location = new System.Drawing.Point(15, 369);
-            this.butt_MakeAccount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butt_MakeAccount.Margin = new System.Windows.Forms.Padding(4);
             this.butt_MakeAccount.Name = "butt_MakeAccount";
             this.butt_MakeAccount.Size = new System.Drawing.Size(341, 55);
             this.butt_MakeAccount.TabIndex = 2;
@@ -86,7 +86,7 @@
             // 
             this.pictureBox1.Image = global::Game_4irad.Properties.Resources.Icon;
             this.pictureBox1.Location = new System.Drawing.Point(105, 15);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(173, 160);
             this.pictureBox1.TabIndex = 5;
@@ -114,7 +114,7 @@
             this.Controls.Add(this.butt_LogIn);
             this.Controls.Add(this.text_Login);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "LogIn";
             this.Text = "LogIn";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.LogIn_FormClosing);

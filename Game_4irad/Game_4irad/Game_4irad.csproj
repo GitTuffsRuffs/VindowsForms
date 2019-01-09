@@ -50,9 +50,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Api.cs" />
-    <Compile Include="ApiException.cs" />
-    <Compile Include="Game.cs" />
+    <Compile Include="Apifolder\Api.cs" />
+    <Compile Include="Apifolder\ApiException.cs" />
+    <Compile Include="Apifolder\Game.cs" />
     <Compile Include="Help.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,10 +77,10 @@
     <Compile Include="LogIn.Designer.cs">
       <DependentUpon>LogIn.cs</DependentUpon>
     </Compile>
-    <Compile Include="NoResultException.cs" />
-    <Compile Include="Pawn.cs" />
-    <Compile Include="Player.cs" />
-    <Compile Include="PlayerToken.cs" />
+    <Compile Include="Apifolder\NoResultException.cs" />
+    <Compile Include="Apifolder\Pawn.cs" />
+    <Compile Include="Apifolder\Player.cs" />
+    <Compile Include="Apifolder\PlayerToken.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Help.resx">
